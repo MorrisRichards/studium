@@ -22,8 +22,9 @@ public class Person {
 		this.ort=ort;
 	}
 	
-	
-	private void print() {
+	// refactored access to .print()
+	// need to be public do to call from main()
+	public void print() {
 		System.out.println(this);
 	}
 	

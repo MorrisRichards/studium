@@ -2,10 +2,17 @@ package adressbuch;
 
 public class Adressbuch {
 
-	Person p;
+	// Author: 	DS
+	// Text: 	this is not working. Commented out
+	//Person p;
 
+	//
 	public static void main(String[] args) {
-		p = new Person();
+		
+		// Author: 	DS
+		// Text:	define Person on call of main()
+		//			instancing it for each object
+		Person p = new Person();
 		p.eingabeVorname();
 		p.eingabeNachname();
 		p.eingabeStraße();
